@@ -1,0 +1,147 @@
+body {
+  background-image: url("images/wooden-background-with-flowers_23-2147721866.jpeg");
+  background-size: 1500px, 1500px;
+  color: black;
+}
+.menu-navbar{
+  background-color: rgba(83, 82, 82, 0.7);
+  color: #363636;
+}
+.menu-nav a{
+  color: #363636
+}
+
+.calendar-text {
+  margin: 50px;
+  color: black;
+  background-color: rgba(83, 82, 82, 0.2);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.menu-block menu-btn {
+  margin-right: 60px;
+  margin-block-start: -60px;
+  padding-left: 117px;
+  display: block;
+  width: 50px;
+  /*height: 50px;*/
+  position: absolute;
+}
+.menu-block menu-btn span,
+.menu-block menu-btn span::before,
+.menu-block menu-btn span::after {
+  position: absolute;
+  top: 50%; margin-top: -1px;
+  left: 50%; margin-left: -10px;
+  width: 20px;
+  height: 2px;
+  background-color: white;
+}
+.menu-block menu-btn span::before,
+.menu-block menu-btn span::after {
+  content: '';
+  display: block;
+  transition: 0.5s;
+}
+.menu-block menu-btn span::before {
+  transform: translateY(-5px);
+}
+.menu-block menu-btn span::after {
+  transform: translateY(5px);
+}
+
+.menu-block menu-btn:active span:before {
+  transform: rotate(-35deg);
+  width: 10px;
+  transform-origin: left bottom;
+}
+.menu-block menu-btn:active span:after {
+  transform: rotate(35deg);
+  width: 10px;
+  transform-origin: left top;
+}
+
+.menu-block {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-button {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.container-reg {
+  margin-left: 300px;
+  text-align: center;
+  margin-top: 150px;
+  background-color: rgba(83, 82, 82, 0.5);
+  height: auto;
+  width: 800px;
+}
+
+input {
+  color: #dbdbdb;
+   background: none;
+    background-color: rgba(83, 82, 82, 0.9);
+}
+.button-login{
+  background: lightskyblue;
+}
+.button-custom{
+  background: lightskyblue;
+  margin-right: 20px;
+}
+
+h1{
+  font-family: "DecoType Naskh";
+  font-style: inherit;
+}
+.container-event {
+  margin-left: 300px;
+  text-align: center;
+  margin-top: 100px;
+  background-color: rgba(83, 82, 82, 0.5);
+  height: auto;
+  width: 800px;
+}
+
+.image_avatar {
+  margin-left: 50%;
+  height: 400px;
+  width: 400px;
+}
+
+.content {
+  display: block;
+}
+.tcontainer {
+  display: block;
+  border: 10px solid #515351;
+  margin-top: 2px;
+}
+
+.modal_content {
+  /*background-color: rgba(83, 82, 82, 0.8);*/
+  position: center;
+}
+
+.modal {
+  padding-right: 18px;
+  height: 800px;
+  width: 300px;
+  background-color: rgba(83, 82, 82, 0.8);
+}
+.background {
+  width: 200px;
+}
+
+.container-text {
+margin-top: 15px;
+  margin-right: 10px;
+}
